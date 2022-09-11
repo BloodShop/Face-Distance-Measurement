@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-img = cv2.imread("../Resources/lambo.jpg")
+img = cv2.imread("/Resources/lambo.jpg")
 print(img.shape)
 
 imgResize = cv2.resize(img,(300,200)) # Width => Height
