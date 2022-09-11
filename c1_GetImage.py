@@ -1,5 +1,7 @@
 import cv2
 import numpy as np
+# Get img
+
 
 cap = cv2.VideoCapture(0)
 cap.set(3,640)
